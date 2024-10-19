@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.1.0",
+    "keccak256": "^1.0.6",
+    "merkletreejs": "^0.4.0"
+  },
+  "name": "diamond-standard-merkle",
+  "version": "1.0.0",
+  "description": "**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate-merkle": "ts-node merkleGenerator.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
